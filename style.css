@@ -1,0 +1,56 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+button {
+  color: white;
+  background: rgb(1, 1, 1, 0.5);
+  border: 2px solid white;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+button:hover{
+    color: black;
+    background: white;
+
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: white;
+  background: rgb(1, 1, 1, 0.5);
+  min-width: 50vw;
+  /* background:white;
+    color:black; */
+
+  height: 80%;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Dancing Script', cursive;
+  font-size:2.5rem;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+
+}
