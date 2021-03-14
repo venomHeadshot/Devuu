@@ -1,0 +1,29 @@
+
+body{
+    margin:0;
+    background-image: url("bg.jpg");
+    background-size:cover;
+    height:100vh;
+}
+
+.wrap{
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap> #myAudio{
+min-width:80%;
+position: fixed;
+bottom:150px;
+   
+}
+    p{
+    color:white;
+    margin-top:8vw;
+    width:85vw;
+    font-family: 'Patrick Hand', cursive;
+    font-size:1.3rem;
+}
